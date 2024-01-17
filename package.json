@@ -1,5 +1,6 @@
 {
-  "name": "ventforet",
+  "name": "vfk-stock-checker",
+  "description": "Ventforet Kofu online shop stock checker",
   "version": "0.0.0",
   "private": true,
   "scripts": {
