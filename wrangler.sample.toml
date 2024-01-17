@@ -1,9 +1,13 @@
 name = "ventforet"
 main = "src/index.ts"
 compatibility_date = "2023-12-18"
+node_compat = true
 
 # Cron Triggers
 # Docs: https://developers.cloudflare.com/workers/platform/triggers/cron-triggers/
 # Configuration: https://developers.cloudflare.com/workers/wrangler/configuration/#triggers
 [triggers]
 crons = ["* * * * *"] # * * * * * = run every minute
+
+[vars]
+DISCORD_WEBHOOK_URL = ""
